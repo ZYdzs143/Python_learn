@@ -8,20 +8,20 @@ class MenuAbstract(object):
     #  选项位置
     rect = [Rect((225, 100, 150, 50)), Rect((225, 170, 150, 50)), Rect((225, 240, 150, 50)), Rect((225, 310, 150, 50))]
     #  选项图片
-    start_img = pygame.image.load("D:/img/开始游戏.png")
-    quit_img = pygame.image.load("D:/img/退出游戏.png")
-    continue_img = pygame.image.load("D:/img/继续游戏.png")
-    restart_img = pygame.image.load("D:/img/重新开始.png")
-    hard_level = pygame.image.load("D:/img/难度选择.png")
-    music = pygame.image.load("D:/img/音乐选项.png")
-    easy = pygame.image.load("D:/img/简单.png")
-    normal = pygame.image.load("D:/img/普通.png")
-    hard = pygame.image.load("D:/img/困难.png")
-    bgm_open = pygame.image.load("D:/img/背景音乐开.png")
-    bgm_close = pygame.image.load("D:/img/背景音乐关.png")
-    sound_open = pygame.image.load("D:/img/吃音效开.png")
-    sound_close = pygame.image.load("D:/img/吃音效关.png")
-    back = pygame.image.load("D:/img/返回上级.png")
+    start_img = pygame.image.load("./img/开始游戏.png")
+    quit_img = pygame.image.load("./img/退出游戏.png")
+    continue_img = pygame.image.load("./img/继续游戏.png")
+    restart_img = pygame.image.load("./img/重新开始.png")
+    hard_level = pygame.image.load("./img/难度选择.png")
+    music = pygame.image.load("./img/音乐选项.png")
+    easy = pygame.image.load("./img/简单.png")
+    normal = pygame.image.load("./img/普通.png")
+    hard = pygame.image.load("./img/困难.png")
+    bgm_open = pygame.image.load("./img/背景音乐开.png")
+    bgm_close = pygame.image.load("./img/背景音乐关.png")
+    sound_open = pygame.image.load("./img/吃音效开.png")
+    sound_close = pygame.image.load("./img/吃音效关.png")
+    back = pygame.image.load("./img/返回上级.png")
 
     #  显示菜单
     def show_menu(self, screen):

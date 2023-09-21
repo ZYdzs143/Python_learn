@@ -78,9 +78,9 @@ class Game:
     def __init__(self):
         pygame.init()
         pygame.mixer.init()
-        pygame.mixer.music.load('D:/music/WITCHES_DANCE.mp3')
+        pygame.mixer.music.load('./music/WITCHES_DANCE.mp3')
         pygame.mixer.music.set_volume(0.1)
-        self.sound = pygame.mixer.Sound('D:/music/吃东西.mp3')
+        self.sound = pygame.mixer.Sound('./music/吃东西.mp3')
         # 创建一个窗口,设置标题,填充背景颜色,画小方格
         self.screen = pygame.display.set_mode((Screen_Width, Screen_Height))
         pygame.display.set_caption('143贪吃蛇')
